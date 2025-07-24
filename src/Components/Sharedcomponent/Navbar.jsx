@@ -49,7 +49,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className="text-color">Cart(1)</button>
+        <button className="text-color text-xl">Cart(1)</button>
         <button className="bg-[#F8FEE5] p-2 rounded-full">
           <svg
             width="20"
