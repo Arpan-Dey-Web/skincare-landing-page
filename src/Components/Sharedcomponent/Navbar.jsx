@@ -10,13 +10,13 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="flex justify-between py-5">
+    <nav className="flex justify-between py-5 w-11/12 mx-auto max-w-7xl">
       <div>
-        <h1 className="text-color text-3xl font-extrabold uppercase">
+        <h1 className="text-color text-2xl md:text-3xl font-extrabold uppercase">
           SKINCARE
         </h1>
       </div>
-      <ul className="flex gap-[61px] text-color text-xl">{links}</ul>
+      <ul className="hidden md:flex gap-4 text-color text-xl">{links}</ul>
       <div></div>
       <div className="flex gap-4">
         <button className="bg-[#F8FEE5] p-2 rounded-full">
@@ -49,7 +49,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className="text-color text-xl">Cart(1)</button>
+        <button className="text-color text-xl hidden lg:block">Cart(1)</button>
         <button className="bg-[#F8FEE5] p-2 rounded-full">
           <svg
             width="20"
