@@ -41,6 +41,24 @@ const LargeDeviceHeader = () => {
 
           {/*  */}
         </div>
+        {/*
+         */}
+        <div className="w-11/12 mx-auto max-w-7xl mt-10">
+          <p className="text-justify text-color text-4xl">
+            <span>
+              Experience the ultimate in skincare with our expertly formulated
+              products, crafted to nourish, protect, and rejuvenate your skin.
+              Combining the finest natural ingredients with
+            </span><span> </span>
+            <span className="text-gray-400">
+              advanced science, our collection ensures every skin type can
+              achieve a radiant, healthy glow. Embrace your beauty with
+              confidence every day. Experience the ultimate in skincare with our
+              expertly formulated products, crafted to nourish, protect, and
+              rejuvenate your skin.
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );

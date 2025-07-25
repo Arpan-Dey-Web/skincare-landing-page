@@ -45,7 +45,7 @@ const Navbar = () => {
               opacity="0.5"
               d="M7.5 5V4.16666C7.5 2.78596 8.61925 1.66666 10 1.66666C11.3807 1.66666 12.5 2.78596 12.5 4.16666V5"
               stroke="#2D3B36"
-              stroke-linecap="round"
+              strokeLinecap="round"
             />
           </svg>
         </button>
@@ -61,13 +61,13 @@ const Navbar = () => {
             <path
               d="M10 4.58386C6.25015 0.687888 1.66669 3.5618 1.66669 7.61425C1.66669 11.6667 5.01621 13.8262 7.46813 15.7591C8.33335 16.4412 9.16669 17.0833 10 17.0833"
               stroke="#1C274C"
-              stroke-linecap="round"
+              strokeLinecap="round"
             />
             <path
               opacity="0.5"
               d="M10 4.58386C13.7498 0.687888 18.3333 3.5618 18.3333 7.61425C18.3333 11.6667 14.9838 13.8262 12.5319 15.7591C11.6667 16.4412 10.8333 17.0833 10 17.0833"
               stroke="#1C274C"
-              stroke-linecap="round"
+              strokeLinecap="round"
             />
           </svg>
         </button>

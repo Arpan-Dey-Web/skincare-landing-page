@@ -2,13 +2,19 @@ import React from "react";
 import image1 from "/src/assets/image1.jpg";
 import image2 from "/src/assets/image2.png";
 
-const SkincareComponent = () => {
+const SkincareComponent = ({
+  customWidth = "w-96",
+  height = "h-96",
+  image =image2,
+}) => {
   return (
-    <div className="max-w-sm mx-auto rounded-3xl shadow-2xl relative h-96 overflow-hidden z-20">
+    <div
+      className={`rounded-3xl shadow-2xl relative ${height} overflow-hidden z-20 mx-auto ${customWidth}`}
+    >
       {/* Full Background Image */}
       <div className="absolute inset-0">
         <img
-          src={image2}
+          src={image}
           alt="Woman with avocado skincare"
           className="w-full h-full object-cover"
         />
